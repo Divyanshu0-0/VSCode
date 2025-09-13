@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMON HOTEL</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: white; padding: 15px; text-align: center; }
+        .hero { background: url('https://source.unsplash.com/1600x900/?hotel') no-repeat center; 
+                background-size: cover; height: 300px; text-align: center; color: white; 
+                display: flex; align-items: center; justify-content: center; font-size: 24px; }
+        .container { width: 80%; margin: auto; padding: 20px; }
+        .rooms { display: flex; justify-content: space-around; }
+        .room { border: 1px solid #ccc; padding: 15px; width: 30%; text-align: center; }
+        .room img { width: 100%; height: 200px; }
+        .booking { text-align: center; padding: 20px; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DEMON HOTEL</h1>
+    </header>
+    <div class="hero">
+        <h2>Welcome to Luxury Living</h2>
+    </div>
+    <div class="container">
+        <h2>Our Rooms</h2>
+        <div class="rooms">
+            <div class="room">
+                <img src="https://source.unsplash.com/400x300/?hotel-room" alt="Room 1">
+                <h3>Deluxe Room</h3>
+                <p>$150 per night</p>
+            </div>
+            <div class="room">
+                <img src="https://source.unsplash.com/400x300/?suite" alt="Room 2">
+                <h3>Executive Suite</h3>
+                <p>$250 per night</p>
+            </div>
+            <div class="room">
+                <img src="https://source.unsplash.com/400x300/?penthouse" alt="Room 3">
+                <h3>Penthouse</h3>
+                <p>$500 per night</p>
+            </div>
+        </div>
+    </div>
+    <div class="booking">
+        <h2>Book Your Stay</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <input type="date" required><br><br>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025 Luxury Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
