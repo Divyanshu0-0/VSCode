@@ -12,5 +12,8 @@ public static void main(String []args)
           h1.add("E");
          System.out.println(h1);
         }
-
+        public static void main1(String[] args) {
+                System.out.println("Hello");
+                
+        }
 }
