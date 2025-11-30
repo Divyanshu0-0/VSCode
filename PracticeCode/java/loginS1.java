@@ -1,4 +1,4 @@
-
+package java;
 import javax.swing.*;
 import java.awt.event.*;
 class loginS1 extends JFrame

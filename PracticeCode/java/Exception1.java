@@ -1,3 +1,5 @@
+package java;
+
 import java.io.*;
 public class Exception1 {
     public static void main(String []args) throws IOException

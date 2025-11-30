@@ -1,3 +1,5 @@
+package java;
+
 class customException{
     public static void main(String []args) {
         int cb=10000;

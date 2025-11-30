@@ -1,3 +1,5 @@
+package java;
+
 public class CountToOneBillion {
     public static void main(String[] args) {
         // Variables to store time

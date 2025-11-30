@@ -1,7 +1,7 @@
 //        JavaInterfacesExample&DefaultMethods (V-57)
 
 // package com.company;
-
+package java;
 interface MyCamera {
     void takeSnap();
     void recordVideos();

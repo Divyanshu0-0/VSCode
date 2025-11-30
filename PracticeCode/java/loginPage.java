@@ -1,3 +1,5 @@
+package java;
+
 import javax.swing.*;
 import java.awt.event.*;
 class loginPage extends JFrame
